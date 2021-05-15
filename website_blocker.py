@@ -1,7 +1,7 @@
 import time
 from datetime import datetime as dt
 
-blocked_sites = ['www.facebook.com', 'facebook.com']
+blocked_sites = ['www.facebook.com', 'facebook.com', 'www.instagram.com', 'instagram.com']
 
 windows_host = r"C:\Windows\System32\drivers\etc\hosts"
 default_host = windows_host
@@ -32,6 +32,6 @@ def block_websites(start_hour, start_minute, end_hour, end_minute):
 
 
 if __name__ == '__main__':
-    block_websites(18, 33, 18, 34)
+    block_websites(11, 51, 11, 52)
 
 
